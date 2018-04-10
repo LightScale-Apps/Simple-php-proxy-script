@@ -13,9 +13,9 @@ define('CONFIG_FILE', 'simple-php-proxy_config.php');
     For an explanation of the config variables see example.simple-php-proxy_config.php
 */
 
-$dest_host = "bash.org";
+$dest_host = "drive.google.com";
 
-$proxy_base_url = '/';
+$proxy_base_url = '/LightScale-Apps/Simple-php-proxy-script/blob/master/src/index.php';
 
 $proxied_headers = array('Set-Cookie', 'Content-Type', 'Cookie', 'Location');
 
